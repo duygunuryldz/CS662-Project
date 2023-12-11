@@ -29,7 +29,9 @@ Our pre-trained models can be downloaded:
 | ------------- | ------------- |
 | Backpack-micro| [link](https://drive.google.com/file/d/1j9f9c8Voi8rQCEgT4Q-bVBljQ5TIv9MK/view?usp=sharing)    | 
 | Backpack-small | [link](https://drive.google.com/file/d/1ow1TnxukMpjLZBQwPvk7f_FqQCNjowwv/view?usp=sharing)    |
+
 | Ablation| |
+| ------------- | ------------- |
 | Backpack-micro-without_tie_weight | [link](https://drive.google.com/file/d/1XrYuug6hx4sJO7YnNfX-QA_DSjAiavNk/view?usp=sharing)|
 
 
