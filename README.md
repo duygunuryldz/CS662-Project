@@ -34,9 +34,19 @@ Our pre-trained models can be downloaded:
 | Backpack-micro| [link](https://drive.google.com/file/d/1j9f9c8Voi8rQCEgT4Q-bVBljQ5TIv9MK/view?usp=sharing)    | 
 | Backpack-small | [link](https://drive.google.com/file/d/1ow1TnxukMpjLZBQwPvk7f_FqQCNjowwv/view?usp=sharing)    |
 
+### Ablation
+If you want to train a model without tie_weight, comment out ```self.tie_weights()``` at line 35 in ```~/backpacks-flash-attn/training/src/models/backpack.py```
+We also provide the pre-trained ```Backpack-micro-without_tie_weight``` model below.
+
 | Ablation| |
 | ------------- | ------------- |
 | Backpack-micro-without_tie_weight | [link](https://drive.google.com/file/d/1XrYuug6hx4sJO7YnNfX-QA_DSjAiavNk/view?usp=sharing)|
 
+### Additional datasets
+If you want to evaluate the additional datasets mentioned in paper, the task names are ```boolq,cb,copa,multirc,record,wic,wsc,openbookqa,piqa,triviaqa,truthfulqa_mc,logiqa,headqa_en,pubmedqa```. You can modify ```do_all.sh``` file as mentioned in evaluation part.
 
+Before evaluating on ```truthfulqa_mc```, make sure run 
+```
+pip install bleurt@https://github.com/google-research/bleurt/archive/b610120347ef22b494b6d69b4316e303f5932516.zip#egg=bleurt
+```
 
