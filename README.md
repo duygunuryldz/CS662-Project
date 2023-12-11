@@ -11,11 +11,9 @@ transformers
 scipy
 ```
 ## Notes for Running the Original Repo
-<<<<<<< HEAD
-=======
+
 After established a conda environment ```flenv``` in [orginal repository of the Backpack models](https://github.com/john-hewitt/backpacks-flash-attn)
 
->>>>>>> f398fce1ebbf1b3a08c3d863bbed198e6a14708b
 Our ```requirements.txt``` contains complete dependency, run
 ```
 pip install -r requirements.txt
@@ -27,11 +25,8 @@ CUDA version strictly relies on ```nvcc --version``` of 11.7. If you have ```nvi
 conda install -c "nvidia/label/cuda-11.7.0" cuda-toolkit
 ```
 
-<<<<<<< HEAD
-Then, run the [orginal repository of the Backpack models](https://github.com/john-hewitt/backpacks-flash-attn).
-=======
+
 Then, run the [orginal repository of the Backpack models](https://github.com/john-hewitt/backpacks-flash-attn) for training from scratch and evaluation given model checkpoints.
->>>>>>> f398fce1ebbf1b3a08c3d863bbed198e6a14708b
 
 Our pre-trained models can be downloaded: 
 | Model  | Links |
