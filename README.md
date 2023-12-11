@@ -11,7 +11,20 @@ transformers
 scipy
 ```
 ## Notes for Running the Original Repo
+Run
+```
+pip install -r requirements.txt
+```
+to install all dependencies.
 
-We provide the complete dependency list in the ```requirements.txt``` file to run the [orginal repository of the Backpack models](https://github.com/john-hewitt/backpacks-flash-attn).
+CUDA version strictly relies on ```nvcc --version``` of 11.7. If you have ```nvidia-smi``` greater than 11.7 but ```nvcc``` is not consistent, try
+```
+conda install -c "nvidia/label/cuda-11.7.0" cuda-toolkit
+```
+
+Then, run the [orginal repository of the Backpack models](https://github.com/john-hewitt/backpacks-flash-attn).
+
+
+
 
 
