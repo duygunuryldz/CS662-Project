@@ -11,11 +11,11 @@ transformers
 scipy
 ```
 ## Notes for Running the Original Repo
-Run
+Our ```requirements.txt``` contains complete dependency, run
 ```
 pip install -r requirements.txt
 ```
-to install all dependencies.
+
 
 CUDA version strictly relies on ```nvcc --version``` of 11.7. If you have ```nvidia-smi``` greater than 11.7 but ```nvcc``` is not consistent, try
 ```
